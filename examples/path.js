@@ -5,11 +5,11 @@
 "use strict";
 var inquirer = require("inquirer");
 
-inquirer.prompt.registerPrompt('tree', require('../lib/prompts/path.js'));
+inquirer.prompt.registerPrompt('path', require('../lib/prompts/path.js'));
 
 inquirer.prompt([
   {
-    type: "checkbox",
+    type: "path",
     message: "Select toppings",
     name: "toppings",
     choices: [
