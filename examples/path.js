@@ -9,9 +9,23 @@ inquirer.prompt.registerPrompt('path', require('../lib/prompts/path.js'));
 inquirer.prompt([
   {
     type: "path",
-    message: "Enter path: ",
-    name: "overwrite",
+    message: "Enter path:",
+    name: "absolute",
+    absolute: true,
+    cwd: '../'
+  },
+  {
+    type: "path",
+    message: "Enter path:",
+    name: "absolute",
+    absolute: true,
     cwd: '/'
+  },
+  {
+    type: "path",
+    message: "Enter path:",
+    name: "Current Dirertory",
+    absolute: false
   }
 ], function( answers ) {
   console.log( JSON.stringify(answers, null, "  ") );
