@@ -47,6 +47,8 @@ Prompts type
 
 #### Path - `{ type: "path" }`
 
+This Prompt allows the user to search for a folder or file as easy as s/he could do it in the OS console.
+
 Take `type`, `name`, `message`, [`cwd`, `mode`, `absolute`, `dirOnly`] properties.
 
 ---
