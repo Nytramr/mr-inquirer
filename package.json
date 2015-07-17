@@ -11,7 +11,9 @@
     "url": "https://github.com/Nytramr/mr-inquirer.git"
   },
   "keywords": [
-    "inquirer"
+    "inquirer",
+    "yeoman",
+    "prompts"
   ],
   "author": "Martin Rubinsztein",
   "license": "MIT",
