@@ -17,7 +17,7 @@ inquirer.prompt([
   {
     type: "path",
     message: "Enter path:",
-    name: "absolute",
+    name: "from root",
     absolute: true,
     cwd: '/'
   },
