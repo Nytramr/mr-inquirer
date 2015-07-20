@@ -1,10 +1,10 @@
 /**
- * Path examples
+ * Graph Path examples
  */
 
 "use strict";
 var inquirer = require("inquirer");
-inquirer.prompt.registerPrompt('path', require('../lib/prompts/path.js'));
+inquirer.prompt.registerPrompt('path', require('../lib/prompts/graph-path.js'));
 
 inquirer.prompt([
   {
