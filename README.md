@@ -40,10 +40,20 @@ Checkout the `examples/` folder for code and interface examples.
 
 ``` shell
 node examples/path.js
+node examples/graph-path.js
 ```
 
 Prompts type
 ---------------------
+
+#### Graphic Path - `{ type: "path" }`
+
+This Prompt allows the user to search for a folder or file using cursor and tab keys.
+It can also filter the list by typing some characters.
+
+Take `type`, `name`, `message`, [`cwd`, `absolute`, `dirOnly`] properties.
+
+---
 
 #### Path - `{ type: "path" }`
 
