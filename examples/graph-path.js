@@ -7,20 +7,20 @@ var inquirer = require("inquirer");
 inquirer.prompt.registerPrompt('path', require('../lib/prompts/graph-path.js'));
 
 inquirer.prompt([
-  {
-    type: "path",
-    message: "Enter path:",
-    name: "absolute",
-    absolute: true,
-    cwd: '../'
-  },
-  {
-    type: "path",
-    message: "Enter path:",
-    name: "from root",
-    absolute: true,
-    cwd: '/'
-  },
+  // {
+  //   type: "path",
+  //   message: "Enter path:",
+  //   name: "absolute",
+  //   absolute: true,
+  //   cwd: '../'
+  // },
+  // {
+  //   type: "path",
+  //   message: "Enter path:",
+  //   name: "from root",
+  //   absolute: true,
+  //   cwd: '/'
+  // },
   {
     type: "path",
     message: "Enter path:",
