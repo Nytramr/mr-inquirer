@@ -46,7 +46,7 @@ node examples/graph-path.js
 Prompts type
 ---------------------
 
-#### Graphic Path - `{ type: "path" }`
+#### Graphic Path - `{ type: "graph-path" }`
 
 This Prompt allows the user to search for a folder or file using cursor and tab keys.
 It can also filter the list by typing some characters.
