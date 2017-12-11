@@ -1,6 +1,6 @@
 {
   "name": "mr-inquirer",
-  "version": "1.0.0",
+  "version": "0.3.2",
   "description": "Inquirer extended prompts",
   "main": "lib/index.js",
   "scripts": {

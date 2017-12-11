@@ -2,6 +2,9 @@
 
 Mr Inquirer
 ===========
+
+THIS VERSION (1.0.0) IS NOT STABLE. 
+
 Inquirer extended prompts
 
 See [Inquirer on github.com](https://github.com/SBoudrias/Inquirer.js) for an extended introduction and documentation.
