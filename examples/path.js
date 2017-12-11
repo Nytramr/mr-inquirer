@@ -4,7 +4,7 @@
 
 "use strict";
 var inquirer = require("inquirer");
-inquirer.prompt.registerPrompt('path', require('../lib/prompts/path.js'));
+inquirer.registerPrompt('path', require('../lib/prompts/path.js'));
 
 inquirer.prompt([
   {
@@ -27,6 +27,6 @@ inquirer.prompt([
     name: "Current Dirertory",
     absolute: false
   }
-], function( answers ) {
+]).then(function( answers ) {
   console.log( JSON.stringify(answers, null, "  ") );
 });
